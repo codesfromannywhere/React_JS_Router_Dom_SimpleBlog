@@ -4,19 +4,37 @@
 }
 
 nav {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     padding: 5vh 2vw;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 nav a {
     padding: 2vh 2vw;
 }
 
+section img {
+    height: 100vh;
+}
 
-div nav {
+
+/* div nav {
     background-image: url('./resources/photo-1512295767273-ac109ac3acfa\ 1.jpg');
     background-repeat: no-repeat;
     height: 50vh;
 
+} */
+
+section div img {
+    height: 40vh;
+    margin-top: 20vh;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }

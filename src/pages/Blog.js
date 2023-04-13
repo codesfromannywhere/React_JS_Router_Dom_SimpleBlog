@@ -4,7 +4,7 @@ import BlogItem from '../components/BlogItem';
 
 const Blog = () => {
     return (
-        <section>
+        <section className='blog-grid'>
             {data.map((elt) => {
                 return (
                     <BlogItem
